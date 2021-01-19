@@ -54,5 +54,4 @@ function decodeRailFenceCipher(string, rows) {
         if (rail === rows - 1 || rail === 0) change = -change
     }
     return r
-  
 }
