@@ -21,5 +21,5 @@ You can assume that all inputs are valid integers.
 */
 
 function roundToNext5(n){
-  return n % 5 == 0 ? n : n % 5 < 0 ? 0 : n + 5 - (n%5)
+  return Math.ceil(n/5)*5;
 }
