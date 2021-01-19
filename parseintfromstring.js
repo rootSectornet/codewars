@@ -1,0 +1,1 @@
+const getAge = i=>Number(i.split("")[0])

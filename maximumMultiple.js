@@ -1,0 +1,1 @@
+const maxMultiple = (a,b)=>b-b%a
